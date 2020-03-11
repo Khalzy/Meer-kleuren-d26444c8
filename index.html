@@ -6,11 +6,15 @@
     <title>Document</title>
   </head>
   <body id="color">
-    <h1>Verander achtergrond kleur</h1>
+    <h1 id="text">Verander achtergrond kleur</h1>
 
     <!-- <label for="colorWell">Color:</label> -->
     <input type="color" id="myColor" />
-    <button id="color" onclick="updateAll()">Click me</button>
+    <button onclick="storeBG()">Achtergrond kleur opslaan</button>
+    <button onclick="titel()">Titel kleur opslaan</button>
+    <button onclick="update()">
+      Kleuren toepassen op pagina
+    </button>
 
     <script src="script.js"></script>
   </body>
